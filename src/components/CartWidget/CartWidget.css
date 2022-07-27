@@ -1,0 +1,8 @@
+#mcarrito {
+    position: fixed;
+    margin-top: 10px;
+    background-color: greenyellow;
+    border: solid rgb(255, 127, 47);
+    left: 80%;
+}
+

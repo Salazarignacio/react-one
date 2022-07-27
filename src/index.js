@@ -3,13 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-let styles = {
-  borderColor: "#999"
-};
-const jsx = (
-  <div style={styles}>
-  Hola Coders</div>
-)
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

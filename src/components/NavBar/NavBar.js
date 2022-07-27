@@ -1,4 +1,7 @@
 import './NavBar.css';
+import CartWidget from '../CartWidget/CartWidget';
+
+
 
 function NavBar () {
     return (
@@ -20,7 +23,7 @@ function NavBar () {
             <a class="nav-link" href="#">Enlace 2</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Enlace 3</a>
+          <CartWidget  />
           </li>
         </ul>
       </div>
@@ -30,3 +33,4 @@ function NavBar () {
 }
 
 export default NavBar
+
