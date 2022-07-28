@@ -1,19 +1,18 @@
 import { useState } from "react";
 
 function ItemCount(){
-     const contador = useState(0);
+     const [contador, setContador] = useState(0);
 
      function agregarContador() {
-        contador[1](contador[0] + 1);
-        console.log(contador)
+        setContador(contador + 1);
+        
      }
      function quitarContador() {
-        contador[1](contador[0] - 1);
-        console.log(contador)
+   setContador(contador - 1)
      }
      return(
         <div>
-            <p>{contador[0]}</p>
+            <p>{contador}</p>
             <button onClick={ agregarContador}>+</button>
             <button onClick={ quitarContador}>-</button>
         </div>
